@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">TripkoKotlin</string>
+    <string name="app_name" translatable="false">Tripko</string>
+    <string name="about_corea_btn_text">About South Corea</string>
+    <string name="language_btn_text">Language</string>
+    <string name="currency_conversor_btn_text">Currency Conversor</string>
+    <string name="transport_btn_text">Transport</string>
+    <string name="entertaiment_btn_text">Entertaiment</string>
+    <string name="gastronomy_btn_text">Gastronomy</string>
+    <string name="tourist_sites_btn_text">Tourist Sites</string>
+    <string name="contacts_of_interest_btn_text">Contacts of Interest</string>
 </resources>

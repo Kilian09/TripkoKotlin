@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_corea_btn_text">Sobre Corea del Sur</string>
+    <string name="language_btn_text">Idioma</string>
+    <string name="currency_conversor_btn_text">Conversor de Moneda</string>
+    <string name="transport_btn_text">Transporte</string>
+    <string name="entertaiment_btn_text">Entretenimiento</string>
+    <string name="gastronomy_btn_text">Gastronomía</string>
+    <string name="tourist_sites_btn_text">Sitios turísticos</string>
+    <string name="contacts_of_interest_btn_text">Contactos de Interes</string>
+</resources>
