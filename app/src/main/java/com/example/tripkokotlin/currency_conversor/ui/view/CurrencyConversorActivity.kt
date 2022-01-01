@@ -1,4 +1,4 @@
-package com.example.tripkokotlin.currency_conversor.view
+package com.example.tripkokotlin.currency_conversor.ui.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,9 +6,9 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import com.example.tripkokotlin.R
-import com.example.tripkokotlin.currency_conversor.viewModel.CurrencyConversorViewModel
+import com.example.tripkokotlin.currency_conversor.ui.viewModel.CurrencyConversorViewModel
 import com.example.tripkokotlin.databinding.ActivityCurrencyConversorBinding
-import com.example.tripkokotlin.main_menu.MainMenuActivity
+import com.example.tripkokotlin.main_menu.ui.view.MainMenuActivity
 
 class CurrencyConversorActivity: AppCompatActivity() {
 

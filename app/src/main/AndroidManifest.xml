@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TripkoKotlin">
         <activity
-            android:name=".main_menu.MainMenuActivity"
+            android:name="com.example.tripkokotlin.main_menu.ui.view.MainMenuActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".currency_conversor.view.CurrencyConversorActivity"
+            android:name="com.example.tripkokotlin.currency_conversor.ui.view.CurrencyConversorActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
         </activity>

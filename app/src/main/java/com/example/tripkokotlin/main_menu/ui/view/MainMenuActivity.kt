@@ -1,10 +1,10 @@
-package com.example.tripkokotlin.main_menu
+package com.example.tripkokotlin.main_menu.ui.view
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.tripkokotlin.R
-import com.example.tripkokotlin.currency_conversor.view.CurrencyConversorActivity
+import com.example.tripkokotlin.currency_conversor.ui.view.CurrencyConversorActivity
 import com.example.tripkokotlin.databinding.ActivityMainMenuBinding
 
 class MainMenuActivity : AppCompatActivity() {
