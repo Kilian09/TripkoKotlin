@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/drawable/dropDownMenu.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/drawable/ic_btn_about_corea.xml" value="0.1" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/drawable/ic_btn_contactos.xml" value="0.1" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/drawable/ic_btn_conversion_de_moneda.xml" value="0.1" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/drawable/ic_btn_currency_conversor.xml" value="0.3828125" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/drawable/ic_btn_entretenimiento.xml" value="0.1" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/drawable/ic_btn_gastronomia.xml" value="0.1" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/drawable/ic_btn_language.xml" value="0.1" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/drawable/ic_btn_sitios_turisticos.xml" value="0.1" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/drawable/ic_btn_transport.xml" value="0.1" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/drawable/ic_btn_transporte.xml" value="0.1" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/drawable/ic_drop_down_menu.xml" value="0.3828125" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/drawable/rectangular_btn_shape.xml" value="0.1" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/drawable/splashscreen.xml" value="0.1" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/layout-land/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/layout-night/activity_main_menu.xml" value="0.1" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/layout-night/activity_splash.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/layout-notnight/activity_splash.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/layout-sw600dp/activity_splash.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/layout/activity_currency_conversor.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/layout/activity_main_menu.xml" value="0.10674157303370786" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/kilia/StudioProjects/TripkoKotlinFinal/app/src/main/res/layout/toolbar.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

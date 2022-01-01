@@ -18,5 +18,7 @@ class MainMenuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainMenuBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+      //  binding.toolbar.homeImageButton.isEnabled = false
     }
 }
