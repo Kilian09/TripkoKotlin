@@ -18,6 +18,7 @@
     <LinearLayout
         android:id="@+id/textLinearLayout"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -37,12 +38,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
-                android:textColor="@android:color/background_dark"
-                tools:text="@string/amount_text_view" />
+                android:text="@string/amount_text_view"
+                android:textColor="@android:color/background_dark" />
 
             <EditText
                 android:id="@+id/amountEditText"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
@@ -66,12 +67,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
-                android:textColor="@android:color/background_dark"
-                tools:text="@string/badge_text_view" />
+                android:text="@string/badge_text_view"
+                android:textColor="@android:color/background_dark" />
 
             <Spinner
                 android:id="@+id/badgeSpinner"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
@@ -94,12 +95,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="40dp"
-                android:textColor="@android:color/background_dark"
-                tools:text="@string/proceed_text_view" />
+                android:text="@string/proceed_text_view"
+                android:textColor="@android:color/background_dark" />
 
             <Spinner
                 android:id="@+id/proceedSpinner"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"

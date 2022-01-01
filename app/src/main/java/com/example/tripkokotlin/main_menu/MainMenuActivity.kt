@@ -1,8 +1,10 @@
 package com.example.tripkokotlin.main_menu
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.tripkokotlin.R
+import com.example.tripkokotlin.currency_conversor.CurrencyConversorActivity
 import com.example.tripkokotlin.databinding.ActivityMainMenuBinding
 
 class MainMenuActivity : AppCompatActivity() {
@@ -13,12 +15,13 @@ class MainMenuActivity : AppCompatActivity() {
 
         setTheme(R.style.Theme_TripkoKotlin)
 
-        Thread.sleep(2000)
-
         super.onCreate(savedInstanceState)
         binding = ActivityMainMenuBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-      //  binding.toolbar.homeImageButton.isEnabled = false
+        binding.currencyConversorBtn.setOnClickListener(){
+            val currencyConversorIntent = Intent(this, CurrencyConversorActivity::class.java)
+            startActivity(currencyConversorIntent)
+        }
     }
 }
