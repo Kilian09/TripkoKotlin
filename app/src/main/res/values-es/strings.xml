@@ -8,4 +8,8 @@
     <string name="gastronomy_btn_text">Gastronomía</string>
     <string name="tourist_sites_btn_text">Sitios turísticos</string>
     <string name="contacts_of_interest_btn_text">Contactos de Interes</string>
+    <string name="amount_text_view">Cantidad:</string>
+    <string name="badge_text_view">Divisa:</string>
+    <string name="proceed_text_view">Pasar a:</string>
+    <string name="calculate_button_text">Calcular</string>
 </resources>
