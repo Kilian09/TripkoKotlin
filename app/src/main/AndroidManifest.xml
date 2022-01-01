@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".currency_conversor.CurrencyConversorActivity"
+            android:name=".currency_conversor.view.CurrencyConversorActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
         </activity>

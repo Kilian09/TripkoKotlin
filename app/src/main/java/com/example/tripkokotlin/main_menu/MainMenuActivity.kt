@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.tripkokotlin.R
-import com.example.tripkokotlin.currency_conversor.CurrencyConversorActivity
+import com.example.tripkokotlin.currency_conversor.view.CurrencyConversorActivity
 import com.example.tripkokotlin.databinding.ActivityMainMenuBinding
 
 class MainMenuActivity : AppCompatActivity() {
