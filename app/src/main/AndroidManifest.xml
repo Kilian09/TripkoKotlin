@@ -3,10 +3,11 @@
     package="com.example.tripkokotlin">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
+        android:name=".currency_conversor.di.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -15,7 +16,7 @@
         android:theme="@style/Theme.TripkoKotlin">
 
         <activity
-            android:name="com.example.tripkokotlin.main_menu.ui.view.MainMenuActivity"
+            android:name="com.example.tripkokotlin.main_menu.MainMenuActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -25,10 +26,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.tripkokotlin.currency_conversor.ui.view.CurrencyConversorActivity"
+            android:name="com.example.tripkokotlin.currency_conversor.view.CurrencyConversorActivity"
             android:exported="true"
-            android:theme="@style/SplashTheme">
-        </activity>
+            android:theme="@style/SplashTheme" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
