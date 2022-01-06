@@ -12,4 +12,6 @@
     <string name="badge_text_view">Divisa:</string>
     <string name="proceed_text_view">Pasar a:</string>
     <string name="calculate_button_text">Calcular</string>
+    <string name="converted_amount">Cantidad Convertida</string>
+    <string name="result">Resultado:</string>
 </resources>

@@ -12,4 +12,6 @@
     <string name="badge_text_view">Badge:</string>
     <string name="proceed_text_view">Proceed:</string>
     <string name="calculate_button_text">Calculate</string>
+    <string name="converted_amount">Converted Amount</string>
+    <string name="result">Result:</string>
 </resources>
