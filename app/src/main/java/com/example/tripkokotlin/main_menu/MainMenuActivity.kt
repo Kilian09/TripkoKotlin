@@ -6,10 +6,11 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.tripkokotlin.R
 import com.example.tripkokotlin.currency_conversor.view.CurrencyConversorActivity
 import com.example.tripkokotlin.databinding.ActivityMainMenuBinding
+import com.example.tripkokotlin.gastronomy.GastronomyActivity
 
 class MainMenuActivity : AppCompatActivity() {
 
-    private lateinit var binding:ActivityMainMenuBinding
+    private lateinit var binding: ActivityMainMenuBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -19,9 +20,21 @@ class MainMenuActivity : AppCompatActivity() {
         binding = ActivityMainMenuBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.currencyConversorBtn.setOnClickListener(){
+        goCurrencyConversor()
+        goGastronomy()
+    }
+
+    fun goCurrencyConversor() {
+        binding.currencyConversorBtn.setOnClickListener() {
             val currencyConversorIntent = Intent(this, CurrencyConversorActivity::class.java)
             startActivity(currencyConversorIntent)
+        }
+    }
+
+    fun goGastronomy() {
+        binding.gastronomyBtn.setOnClickListener() {
+            val gastronomyIntent = Intent(this, GastronomyActivity::class.java)
+            startActivity(gastronomyIntent)
         }
     }
 }
