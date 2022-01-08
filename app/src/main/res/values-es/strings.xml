@@ -14,4 +14,7 @@
     <string name="calculate_button_text">Calcular</string>
     <string name="converted_amount">Cantidad Convertida</string>
     <string name="result">Resultado:</string>
+    <string name="region_image">Imagen Region</string>
+    <string name="regionText">Región</string>
+    <string name="option_region_image">Opciones de Region</string>
 </resources>
