@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aboutSouthKorea_DrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:padding="0dp"
+    tools:context=".about_south_korea.AboutSouthKoreaActivity"
+    tools:ignore="MissingDefaultResource">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header"
+            app:layout_constraintVertical_bias="0.48000002">
+
+            <LinearLayout
+                android:id="@+id/LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/aboutSouthKoreaTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginBottom="5sp"
+                    android:gravity="center"
+                    android:text="@string/about_south_korea_title"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/aboutSouthKoreaImage1"
+                    android:layout_width="match_parent"
+                    android:layout_height="237sp"
+                    app:srcCompat="@drawable/about_south_korea" />
+
+                <TextView
+                    android:id="@+id/aboutSouthKoreaDescriptionText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/about_south_korea_text" />
+
+                <ImageView
+                    android:id="@+id/aboutSouthKoreaImage2"
+                    android:layout_width="match_parent"
+                    android:layout_height="165sp"
+                    app:srcCompat="@drawable/about_south_korea2" />
+
+                <TextView
+                    android:id="@+id/aboutSouthKoreaText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="140sp"
+                    android:text="@string/about_south_korea_text2" />
+
+                <Button
+                    android:id="@+id/climate_btn"
+                    style="@style/Theme.TripkoKotlin"
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:background="@color/dark_blue"
+                    android:backgroundTint="@color/dark_blue"
+                    android:text="@string/climate_title"
+                    android:textColorHighlight="#00FFFFFF"
+                    android:textColorHint="#00FFFFFF"
+                    android:textColorLink="#00FFFFFF" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

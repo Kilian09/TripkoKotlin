@@ -4,9 +4,10 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.tripkokotlin.R
-import com.example.tripkokotlin.currency_conversor.view.CurrencyConversorActivity
 import com.example.tripkokotlin.databinding.ActivityMainMenuBinding
 import com.example.tripkokotlin.gastronomy.GastronomyActivity
+import com.example.tripkokotlin.about_south_korea.AboutSouthKoreaActivity
+
 
 class MainMenuActivity : AppCompatActivity() {
 
@@ -20,14 +21,14 @@ class MainMenuActivity : AppCompatActivity() {
         binding = ActivityMainMenuBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        goCurrencyConversor()
         goGastronomy()
+        goAboutSouthKorea()
     }
 
-    fun goCurrencyConversor() {
-        binding.currencyConversorBtn.setOnClickListener() {
-            val currencyConversorIntent = Intent(this, CurrencyConversorActivity::class.java)
-            startActivity(currencyConversorIntent)
+    fun goAboutSouthKorea() {
+        binding.aboutKoreaBtn.setOnClickListener() {
+            val aboutSouthKoreaIntent = Intent(this, AboutSouthKoreaActivity::class.java)
+            startActivity(aboutSouthKoreaIntent)
         }
     }
 
@@ -37,4 +38,5 @@ class MainMenuActivity : AppCompatActivity() {
             startActivity(gastronomyIntent)
         }
     }
+
 }

@@ -17,4 +17,31 @@
     <string name="region_image">Imagen Region</string>
     <string name="regionText">Región</string>
     <string name="option_region_image">Opciones de Region</string>
+
+    <!-- Strings About South Korea-->
+    <string name="about_south_korea_title">Sobre Corea del Sur</string>
+    <string name="about_south_korea_text">La República de Corea es un país soberano de Asia Oriental, cuyo
+        territorio comprende la mitad sur de la península de Corea englobando unas tres mil islas
+        que la rodean. Aproximadamente la mitad de la población del país vive en su capital, Seúl,
+        o en su zona metropolitana, que es una de las áreas metropolitanas más pobladas del mundo.
+        Corea es una de las civilizaciones más antiguas del mundo, su idioma oficial es el coreano y
+        su moneda el won coreano.</string>
+    <string name="about_south_korea_text2">Más información</string>
+
+    <!-- Strings Climate-->
+    <string name="climate_title">Clima</string>
+    <string name="climate_text">   El clima de Corea del Sur es básicamente continental, con inviernos
+        fríos y secos y veranos cálidos y lluviosos. La temperatura media de Seúl en enero es de –5 °C,
+        y en julio de 25 °C. Las temperaturas del invierno son más elevadas a lo largo de la costa
+        meridional y bastante más bajas en el interior montañoso.</string>
+    <string name="search">Buscar</string>
+    <string name="today">Hoy</string>
+    <string name="search_city_weather">Buscar el tiempo de la ciudad</string>
+    <string name="search_for_a_city">Buscar una ciudad</string>
+    <string name="goToWeather">Ver el tiempo que hace en una ciudad</string>
+
+    <!--    Strings de Entretenimiento -->
+    <string name="entertainment_text">Parques</string>
+    <string name="entertainment_title">Entretenimiento</string>
+
 </resources>

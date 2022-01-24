@@ -17,4 +17,31 @@
     <string name="region_image">Region Image</string>
     <string name="regionText">Region</string>
     <string name="option_region_image">Option region</string>
+
+    <!-- Strings About South Korea-->
+    <string name="about_south_korea_title">About South Korea</string>
+    <string name="about_south_korea_text">The Republic of Korea is a sovereign country in East Asia, whose
+        territory comprises the southern half of the Korean peninsula encompassing about three thousand islands
+        that surround her. About half of the country`s population lives in its capital, Seoul,
+        or in its metropolitan area, which is one of the most populated metropolitan areas in the world.
+        Korea is one of the oldest civilizations in the world, its official language is Korean and
+        its currency the Korean won.</string>
+    <string name="about_south_korea_text2">More information</string>
+
+    <!-- Strings Climate-->
+    <string name="climate_title">Climate</string>
+    <string name="climate_text">  South Korea´s climate is basically continental, with winters
+        cold and dry and hot and rainy summers. The average temperature of Seoul in January is –5 ° C,
+        and in July 25 ° C. Winter temperatures are highest along the coast
+        southern and considerably lower in the mountainous interior.</string>
+    <string name="search">Search</string>
+    <string name="today">Today</string>
+    <string name="search_city_weather">Search City Weather</string>
+    <string name="search_for_a_city">Search for a city</string>
+    <string name="goToWeather">See the weather in a city</string>
+
+
+    <!--    Strings de Entretenimiento -->
+    <string name="entertainment_text">Parks</string>
+    <string name="entertainment_title">Entertainment</string>
 </resources>
