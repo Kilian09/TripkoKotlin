@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.tripkokotlin.BuildConfig
 import com.example.tripkokotlin.R
 import com.example.tripkokotlin.currency_conversor.helper.EndPoints
+import com.example.tripkokotlin.databinding.ActivityGastronomyListBinding
 import com.example.tripkokotlin.databinding.GastronomyListBinding
 import com.google.gson.Gson
 import dagger.Provides
@@ -27,7 +28,7 @@ import javax.inject.Singleton
 @AndroidEntryPoint
 class GastronomyActivity : AppCompatActivity() {
 
-    private lateinit var binding: GastronomyListBinding
+    private lateinit var binding: ActivityGastronomyListBinding
     private lateinit var adapter: GastronomyAdapter
 
     private val koreaStates = mutableListOf<String>()
@@ -37,7 +38,7 @@ class GastronomyActivity : AppCompatActivity() {
         setTheme(R.style.Theme_TripkoKotlin)
 
         super.onCreate(savedInstanceState)
-        binding = GastronomyListBinding.inflate(layoutInflater)
+        binding = ActivityGastronomyListBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         initRecyclerView()

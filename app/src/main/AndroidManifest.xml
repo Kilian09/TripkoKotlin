@@ -35,6 +35,16 @@
             android:exported="true"
             android:theme="@style/SplashTheme" />
 
+        <activity
+            android:name="com.example.tripkokotlin.about_south_korea.AboutSouthKoreaActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme" />
+
+        <activity
+            android:name="com.example.tripkokotlin.climate.ui.activities.ClimateActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

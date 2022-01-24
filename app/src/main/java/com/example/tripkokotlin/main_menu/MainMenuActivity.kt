@@ -7,6 +7,7 @@ import com.example.tripkokotlin.R
 import com.example.tripkokotlin.databinding.ActivityMainMenuBinding
 import com.example.tripkokotlin.gastronomy.GastronomyActivity
 import com.example.tripkokotlin.about_south_korea.AboutSouthKoreaActivity
+import com.example.tripkokotlin.currency_conversor.view.CurrencyConversorActivity
 
 
 class MainMenuActivity : AppCompatActivity() {
@@ -22,13 +23,21 @@ class MainMenuActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         goGastronomy()
+        goCurrencyConversor()
         goAboutSouthKorea()
     }
 
     fun goAboutSouthKorea() {
-        binding.aboutKoreaBtn.setOnClickListener() {
+        binding.aboutCoreaBtn.setOnClickListener() {
             val aboutSouthKoreaIntent = Intent(this, AboutSouthKoreaActivity::class.java)
             startActivity(aboutSouthKoreaIntent)
+        }
+    }
+
+    fun goCurrencyConversor() {
+        binding.currencyConversorBtn.setOnClickListener() {
+            val currencyConversorIntent = Intent(this, CurrencyConversorActivity::class.java)
+            startActivity(currencyConversorIntent)
         }
     }
 

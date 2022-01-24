@@ -16,13 +16,19 @@
         android:orientation="vertical">
 
         <include
-            layout="@layout/toolbar"></include>
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-        <include
-            android:id="@+id/include"
-            layout="@layout/gastronomy_list"
-            app:layout_constraintTop_toBottomOf="@+id/gastronomiaDrawerLayout"
-            tools:layout_editor_absoluteX="-16dp" />
+        <androidx.recyclerview.widget.RecyclerView
+
+
+            android:id="@+id/gastronomiaList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="LinearLayoutManager"
+            tools:listitem="@layout/gastronomy_list_content" />
 
     </LinearLayout>
 
